@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: $BIN/files/file.pl:37
+#: $BIN/files/file.pl:40
 msgid ""
 "1\n"
 "\n"
@@ -60,6 +61,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: $BIN/files/file.pl:14
+#: $BIN/files/file.pl:44
+#: $BIN/files/file.pl:45
 msgid "Test 1' # \" "
 msgstr ""
 

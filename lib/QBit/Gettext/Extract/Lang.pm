@@ -1,6 +1,7 @@
 package QBit::Gettext::Extract::Lang;
 
 use qbit;
+use Text::Balanced qw(extract_quotelike);
 
 use base qw(QBit::Class);
 
@@ -53,6 +54,8 @@ sub extract_from_file {
                 s/\\'/'/sg;
             } elsif (s/^"|"$//sg) {
                 s/\\"/"/sg;
+            } elsif ( my $quoted_value = (extract_quotelike($_))[5] ) {
+                $_ = $quoted_value;
             }
         }
 
