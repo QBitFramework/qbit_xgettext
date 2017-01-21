@@ -1,0 +1,49 @@
+==================================================
+Changes from 2016-01-22 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.004 at 2017-01-21 13:36:39 +0000
+------------------------------------------
+
+  Change: d47eb457759d5674f7790894f028962d873ca7fc
+  Author: Igor <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 17:36:05 +0000
+
+    Merge pull request #4 from Madskill/upload_to_cpan
+
+    upload to cpan 
+
+  Change: 6a6e6fe4b707161ee678b0e3d454a31da31ce761
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 16:34:56 +0000
+
+    upload to cpan 
+
+  Change: 743083af6ff7df3911f2e48983695a0f1a7f6396
+  Author: Igor <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 17:32:28 +0000
+
+    Merge pull request #3 from Madskill/set_headers
+
+    added headers 
+
+  Change: 0393283c500f345f4f48a9d0dbdf81bf7eb77993
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 16:31:01 +0000
+
+    Merge remote-tracking branch 'upstream/master' into set_headers
+
+    Conflicts:
+
+    lib/QBit/Gettext/PO.pm 
+
+  Change: 578805173e9ed92f0d9cfd6f923f5325a659422c
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 16:24:55 +0000
+
+    added headers 
+
+================================================
+Plus 3 releases after 2016-01-22 00:00:00 +0000.
+================================================
