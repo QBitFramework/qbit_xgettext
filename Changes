@@ -3,8 +3,38 @@ Changes from 2016-01-22 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.004 at 2017-01-21 13:36:39 +0000
+version 0.005 at 2017-01-21 17:12:34 +0000
 ------------------------------------------
+
+  Change: 67de5feddc16c87a480ee8b4615df2ab15a8db38
+  Author: Igor <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 21:08:52 +0000
+
+    Merge pull request #5 from Madskill/upload_to_cpan
+
+    Upload to cpan 
+
+  Change: a8ee075c711d8fb752bca06b379ea68214799e93
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 20:06:55 +0000
+
+    Merge remote-tracking branch 'upstream/master' into upload_to_cpan 
+
+  Change: 5ba9c4e085c2fd7fc1bc36f14482d75296f47491
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 20:06:13 +0000
+
+    added package qbit_xgettext.pm 
+
+------------------------------------------
+version 0.004 at 2017-01-21 13:37:02 +0000
+------------------------------------------
+
+  Change: f42556dbcf85dfebb8502cfe5df323f646884fae
+  Author: Igor Sverdlov <igor-sverdlov@mail.ru>
+  Date : 2017-01-21 16:37:02 +0000
+
+    Version 0.004 
 
   Change: d47eb457759d5674f7790894f028962d873ca7fc
   Author: Igor <igor-sverdlov@mail.ru>

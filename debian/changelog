@@ -1,3 +1,9 @@
+qbit-xgettext (0.005) raring; urgency=low
+
+  * added package qbit_xgettext.pm
+
+ -- Igor Sverdlov <igor-sverdlov@mail.ru>  Sat, 21 Jan 2017 20:12:34 +0300
+
 qbit-xgettext (0.004) raring; urgency=low
 
   * upload to cpan
