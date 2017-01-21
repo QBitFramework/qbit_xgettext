@@ -11,7 +11,7 @@ use File::Find;
 use QBit::Gettext::Extract;
 
 my %args = ();
-GetOptions(\%args, 'help|?', 'dir=s@', 'ofile=s', 'extractor=s@');
+GetOptions(\%args, 'help|?', 'dir|d=s@', 'ofile|o=s', 'extractor=s@', 'lang|l=s', 'nplurals=i', 'plural=s');
 
 pod2usage(1) if $args{'help'};
 
@@ -46,9 +46,9 @@ find({wanted => sub {$extractor->extract_from_file($File::Find::name) if -f $Fil
     @{$args{'dir'}});
 
 if ($args{'ofile'} eq '-') {
-    print $extractor->po->as_string();
+    print $extractor->po->as_string(%args);
 } else {
-    $extractor->po->write_to_file($args{'ofile'});
+    $extractor->po->write_to_file(%args);
 }
 
 __END__
@@ -72,6 +72,24 @@ Directory with source files, may be multiple.
 =item B<-o, --ofile>
 
 Output POT file.
+
+=item B<-l, --lang>
+
+Language code for plurals header in .po files
+
+    --lang=en
+
+=item B<--nplurals>
+
+Number of forms
+
+    --nplurals=2
+
+=item B<--plural>
+
+Format
+
+    --plural="(n != 1)"
 
 =item B<--extractor>
 
