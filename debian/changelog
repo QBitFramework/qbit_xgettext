@@ -1,3 +1,9 @@
+qbit-xgettext (0.006) raring; urgency=low
+
+  * arguments
+
+ -- Igor Sverdlov <igor-sverdlov@mail.ru>  Sun, 22 Jan 2017 19:02:25 +0300
+
 qbit-xgettext (0.005) raring; urgency=low
 
   * added package qbit_xgettext.pm
