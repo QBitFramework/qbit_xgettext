@@ -86,7 +86,7 @@ sub as_string {
 sub write_to_file {
     my ($self, %opts) = @_;
 
-    writefile($opts{'ofile'}, $self->as_string());
+    writefile($opts{'ofile'}, $self->as_string(%opts));
 }
 
 sub __quote {
