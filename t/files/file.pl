@@ -37,6 +37,12 @@ my $other_str => sub {gettext('From sub')},
 gettext("1
 
 3");
+gettext(qq-1
+
+3-); # gettext(q{One more text in comment})
+
+gettext(q{Test 1' # " });
+gettext(q|Test 1' # " |);
 
 gettext('(something in parenthetical)');
 
